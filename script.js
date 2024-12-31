@@ -252,7 +252,7 @@ function time(obj,futimg){
     var second = parseInt(time%60);  // 以60秒为一整份 取余 剩下秒数
 //              console.log(hour+":"+minute+":"+second)
 //              alert(hour)
-    obj.innerHTML= "我们已经一起走过：<br/>" + day+"天"+hour+"小时"+minute+"分"+second+"秒"
+    obj.innerHTML= "此刻是我们的：<br/>" + day+"天"+hour+"小时"+minute+"分"+second+"秒"
 
     return true;
 }
